@@ -2,38 +2,39 @@
 
 ## Description (EN)
 
-This project simulates an industrial‐style pressure regulation setup using Rockwell Automation hardware and software. Unlike a purely virtual exercise, it involved downloading code to a physical Allen-Bradley PLC over Ethernet/IP, reading live analog input from a pressure sensor module (1734-IE2C), and linking a FactoryTalk View HMI to controller tags via RSLinx Enterprise. Although no actuator (compressor) was driven physically, the logic closely mirrors a real plant scenario.
+This project simulates an industrial-style pressure control system using Rockwell Automation hardware and software. Unlike a fully virtual exercise, this implementation involved downloading logic to a physical Allen-Bradley PLC via Ethernet/IP, acquiring live analog input from a pressure sensor module (1734-IE2C), and linking a FactoryTalk View HMI to controller tags through RSLinx Enterprise. Although no physical actuator (e.g., compressor) was activated, the control logic closely replicates a real industrial setup.
 
-Developed as a hands-on learning step, the system reads raw sensor data, converts it to engineering units, compares it against a reference setpoint, and toggles a virtual compressor output accordingly.
+Designed as a hands-on learning experience, the system reads raw analog data from a sensor, converts it into engineering units, compares it to a user-defined reference pressure, and activates a virtual compressor output if the pressure falls below the threshold.
 
 ### Key Features
-- Real PLC download and Ethernet/IP configuration  
-- Periodic data acquisition from a live pressure sensor (1734-IE2C)  
-- Raw-to-engineering unit conversion using CPT block  
-- Ladder logic comparison to drive `Compressor_ON` tag  
-- HMI in FactoryTalk View Studio showing live pressure and control buttons  
-- RSLinks Enterprise integration for real-time PLC–HMI communication  
+- Real PLC download and Ethernet/IP setup  
+- Live data acquisition from a 1734-IE2C analog input module  
+- Raw-to-engineering unit conversion using CPT instructions  
+- Ladder logic comparison to trigger the `Compressor_ON` tag  
+- FactoryTalk View Studio HMI with real-time pressure display and control buttons  
+- Seamless PLC–HMI communication via RSLinx Enterprise  
 
 ### Documentation
-Full documentation is available here:  
-[Documentation Automatic Pressure Control System.pdf](./Documentation%20Pressure%20Regulation%20System.pdf) (written in English)
+Full technical documentation is available here:  
+[Documentation Automatic Pressure Control System.pdf](./Documentation%20Automatic%20Pressure%20Control%20System.pdf) (written in English)
 
 ---
 
 ## Descriere (RO)
 
-Acest proiect prezintă un sistem de reglare a presiunii construit pe hardware Rockwell Automation conectat la un PLC fizic. Codul a fost descărcat în controller prin Ethernet/IP, valorile analogice de la un senzor de presiune (modul 1734-IE2C) au fost transformate în unități de inginerie, iar o interfață HMI realizată în FactoryTalk View Studio afișează datele în timp real și controlează starea unui tag virtual de compresor. Deși compresorul nu a fost acționat fizic, logica este fidelă unui proces industrial real.
+Acest proiect simulează un sistem industrial de control automat al presiunii, folosind hardware și software Rockwell Automation. Spre deosebire de o simulare exclusiv virtuală, implementarea a implicat descărcarea logicii într-un PLC Allen-Bradley real, conectat prin Ethernet/IP, preluarea în timp real a unui semnal analogic de la un senzor de presiune (modul 1734-IE2C) și conectarea interfeței HMI realizate în FactoryTalk View la variabilele controllerului prin RSLinx Enterprise. Deși nu s-a acționat fizic un compresor, logica replică fidel un proces industrial funcțional.
 
-Proiectul a fost conceput pentru a apropia simularea de mediul de producție, combinând configurarea IP, achiziția semnalului analogic și integrarea PLC–HMI.
+Sistemul citește o valoare brută de la senzor, o convertește în unități inginerești, o compară cu o valoare de referință introdusă de utilizator și activează un tag virtual `Compressor_ON` dacă presiunea este sub pragul setat.
 
 ### Funcționalități
-- Descărcarea codului în PLC fizic și configurare Ethernet/IP  
-- Achiziție periodică a valorilor de presiune de la modulul analogic 1734-IE2C  
-- Conversia semnalului brut în unități de inginerie cu blocul CPT  
-- Comparație ladder logic pentru setarea tagului `Compressor_ON`  
-- Interfață FactoryTalk View Studio cu afișaj presiune și butoane START/STOP  
-- Integrare RSLinks Enterprise pentru comunicare PLC–HMI în timp real  
+- Descărcarea logicii în PLC fizic și configurarea rețelei Ethernet/IP  
+- Achiziție de date în timp real de la modulul analogic 1734-IE2C  
+- Conversie a valorii brute în unități de inginerie cu bloc CPT  
+- Comparație în ladder logic între presiune și setpoint pentru activarea tagului `Compressor_ON`  
+- Interfață HMI în FactoryTalk View cu afișaj presiune și butoane START/STOP  
+- Comunicare în timp real PLC–HMI prin RSLinx Enterprise  
 
 ### Documentație
-Documentația detaliată este disponibilă aici:  
-[Documentation Automatic Pressure Control System.pdf](./Documentation%20Pressure%20Regulation%20System.pdf) (scrisă în Engleză)
+Documentația completă este disponibilă aici:  
+[Documentation Automatic Pressure Control System.pdf](./Documentation%20Automatic%20Pressure%20Control%20System.pdf) (scrisă în Engleză)
+
