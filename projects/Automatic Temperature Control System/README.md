@@ -1,4 +1,4 @@
-# Temperature Control Simulation – Rockwell PLC & HMI
+# Automatic Temperature Control System
 
 ## Description (EN)
 
