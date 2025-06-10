@@ -16,7 +16,7 @@ Developed as a learning exercise, the project helped me understand the Rockwell 
 
 ### Documentation
 Full documentation is available here:  
-[Documentation Temperature Control Simulation.pdf](./SRA_T.pdf)
+[Documentation Temperature Control Simulation.pdf](./SRA_T.pdf) (written in Romanian)
 
 ---
 
