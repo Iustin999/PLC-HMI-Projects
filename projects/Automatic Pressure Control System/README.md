@@ -16,7 +16,7 @@ Designed as a hands-on learning experience, the system reads raw analog data fro
 
 ### Documentation
 Full technical documentation is available here:  
-[Documentation Automatic Pressure Control System.pdf](./Documentation%20Automatic%20Pressure%20Control%20System.pdf) (written in English)
+[Documentation Automatic Pressure Control System.pdf](./SRA_P.pdf) (written in English)
 
 ---
 
@@ -36,5 +36,5 @@ Sistemul citește o valoare brută de la senzor, o convertește în unități in
 
 ### Documentație
 Documentația completă este disponibilă aici:  
-[Documentation Automatic Pressure Control System.pdf](./Documentation%20Automatic%20Pressure%20Control%20System.pdf) (scrisă în Engleză)
+[Documentation Automatic Pressure Control System.pdf](./SRA_P.pdf) (scrisă în Engleză)
 
