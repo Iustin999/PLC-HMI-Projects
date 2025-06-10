@@ -1,4 +1,4 @@
-# Pressure Regulation System – Rockwell PLC & HMI
+# Automatic Pressure Control System
 
 ## Description (EN)
 
@@ -16,7 +16,7 @@ Developed as a hands-on learning step, the system reads raw sensor data, convert
 
 ### Documentation
 Full documentation is available here:  
-[Documentation Pressure Regulation System.pdf](./Documentation%20Pressure%20Regulation%20System.pdf) (written in English)
+[Documentation Automatic Pressure Control System.pdf](./Documentation%20Pressure%20Regulation%20System.pdf) (written in English)
 
 ---
 
@@ -36,4 +36,4 @@ Proiectul a fost conceput pentru a apropia simularea de mediul de producție, co
 
 ### Documentație
 Documentația detaliată este disponibilă aici:  
-[Documentation Pressure Regulation System.pdf](./Documentation%20Pressure%20Regulation%20System.pdf) (scrisă în Engleză)
+[Documentation Automatic Pressure Control System.pdf](./Documentation%20Pressure%20Regulation%20System.pdf) (scrisă în Engleză)
